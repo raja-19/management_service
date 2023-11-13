@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.everest.nl/aquima/studio/ManagementService/1.0">
+   <soapenv:Header/>
+   <soapenv:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <ns:GetModuleElement>
+         <ns:repository>$REPOSITORY</ns:repository>
+         <ns:branch>Trunk</ns:branch>
+         <ns:project>$PROJECT</ns:project>
+         <ns:module Name="$MODULE" ModuleType="Interaction"/>
+         <ns:moduleElement Name="$ELEMENT" ModuleElementType="TextItem"/>
+      </ns:GetModuleElement>
+   </soapenv:Body>
+</soapenv:Envelope>

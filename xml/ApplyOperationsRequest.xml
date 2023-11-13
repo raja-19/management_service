@@ -1,0 +1,35 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.everest.nl/aquima/studio/ManagementService/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:ApplyOperations>
+         <ns:repository>Kinderbijslag</ns:repository>
+         <ns:branch>test</ns:branch>
+         <ns:operations>
+            <ns:Operations>
+            <ns:OperationEntry>
+  <ns:ModuleElementOperation Type="Update" GenerateLayout="false">
+     <ns:Project>Kinderbijslag</ns:Project>
+     <ns:Module Name="Kinderbijslag" ModuleType="Interaction"/>
+     <ns:OriginalKey Name="BerekenHoogteKinderbijslag" ModuleElementType="TextItem"/>
+     <ns:ModuleElement xsi:type="ns:TextItem" Name="BerekenHoogteKinderbijslag">
+         <Comments xmlns=""/>
+         <Tags xmlns=""/>
+         <NodeSets xmlns="">
+             <NodeSet Language="Nederlands">
+                 <Nodes>
+                     <Node xmlns:q1="http://www.everest.nl/aquima/studio/ManagementService/1.0" xsi:type="q1:TextNode" Text="updated with TakeControl">
+                         <Children/>
+                     </Node>
+                 </Nodes>
+             </NodeSet>
+             <NodeSet Language="English">
+                 <Nodes/>
+             </NodeSet>
+         </NodeSets>
+     </ns:ModuleElement>
+  </ns:ModuleElementOperation>
+</ns:OperationEntry></ns:Operations>
+         </ns:operations>
+      </ns:ApplyOperations>
+   </soapenv:Body>
+</soapenv:Envelope>

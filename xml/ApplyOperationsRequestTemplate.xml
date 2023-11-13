@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:ns="http://www.everest.nl/aquima/studio/ManagementService/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:ApplyOperations>
+         <ns:repository>$REPOSITORY</ns:repository>
+         <ns:branch>test</ns:branch>
+         <ns:operations>
+            <ns:Operations>
+            </ns:Operations>
+         </ns:operations>
+      </ns:ApplyOperations>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.everest.nl/aquima/studio/ManagementService/1.0">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:GetModules>
+         <ns:repository>$REPOSITORY</ns:repository>
+         <ns:branch>Trunk</ns:branch>
+         <ns:project>$PROJECT</ns:project>
+      </ns:GetModules>
+   </soapenv:Body>
+</soapenv:Envelope>

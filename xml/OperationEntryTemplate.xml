@@ -1,0 +1,23 @@
+<ns:OperationEntry xmlns:ns="http://www.everest.nl/aquima/studio/ManagementService/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ns:ModuleElementOperation Type="Update" GenerateLayout="false">
+     <ns:Project>$PROJECT</ns:Project>
+     <ns:Module Name="$MODULE" ModuleType="Interaction"/>
+     <ns:OriginalKey Name="$NAME" ModuleElementType="TextItem"/>
+     <ns:ModuleElement xsi:type="ns:TextItem" Name="$NAME">
+         <Comments xmlns=""/>
+         <Tags xmlns=""/>
+         <NodeSets xmlns="">
+             <NodeSet Language="Nederlands">
+                 <Nodes>
+                     <Node xsi:type="q1:TextNode" Text="$NL-TEXT" xmlns:q1="http://www.everest.nl/aquima/studio/ManagementService/1.0">
+                         <Children/>
+                     </Node>
+                 </Nodes>
+             </NodeSet>
+             <NodeSet Language="English">
+                 <Nodes/>
+             </NodeSet>
+         </NodeSets>
+     </ns:ModuleElement>
+  </ns:ModuleElementOperation>
+</ns:OperationEntry>
